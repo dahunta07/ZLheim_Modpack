@@ -1,0 +1,533 @@
+{
+  "instance": "928353e8-9000-4cfd-af5e-a78f096ce12a",
+  "version": 1,
+  "deploymentMethod": "hardlink_activator",
+  "gameId": "valheim",
+  "deploymentTime": 1621057869495,
+  "stagingPath": "C:\\Users\\da_hu\\AppData\\Roaming\\Vortex\\valheim\\mods",
+  "targetPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Valheim\\BepInEx\\plugins",
+  "files": [
+    {
+      "relPath": "MountUp.dll",
+      "source": "Mount Up-1091-0-10-0-1619364250",
+      "target": "",
+      "time": 1619362932000
+    },
+    {
+      "relPath": "CreatureControl\\CreatureLevelControl.dll",
+      "source": "Creature Level and Loot Control-495-3-8-7-1619547515",
+      "target": "",
+      "time": 1619518678000
+    },
+    {
+      "relPath": "Forsaken\\forsakenmod",
+      "source": "Forsaken-799-0-7-0-1618198629",
+      "target": "",
+      "time": 1618133754000
+    },
+    {
+      "relPath": "Forsaken\\ForsakenMod.dll",
+      "source": "Forsaken-799-0-7-0-1618198629",
+      "target": "",
+      "time": 1618136298000
+    },
+    {
+      "relPath": "BeastsOfBurden.dll",
+      "source": "BeastsOfBurden.zip-545-1-0-4-1618850288",
+      "target": "",
+      "time": 1618799282000
+    },
+    {
+      "relPath": "FoodStaminaRegen.dll",
+      "source": "Food Stamina Regen-431-1-3-1616779982",
+      "target": "",
+      "time": 1616743944000
+    },
+    {
+      "relPath": "ExtendedItemDataFramework.dll",
+      "source": "Extended Item Data Framework-281-1-0-0-1614896504",
+      "target": "",
+      "time": 1614877710000
+    },
+    {
+      "relPath": "LoxMod.dll",
+      "source": "LoxMod.zip-546-1-0-0-1615947452",
+      "target": "",
+      "time": 1615943152000
+    },
+    {
+      "relPath": "JotunnLib.dll",
+      "source": "JotunnLib-507-0-1-6-1617855521",
+      "target": "",
+      "time": 1617855444000
+    },
+    {
+      "relPath": "WeightlessCoins.dll",
+      "source": "Weightless Coins 1.0.0-607-1-0-0-1616221955",
+      "target": "",
+      "time": 1616218300000
+    },
+    {
+      "relPath": "MassFarming\\MassFarming.dll",
+      "source": "MassFarming-527-1-2-1616557266",
+      "target": "",
+      "time": 1616553388000
+    },
+    {
+      "relPath": "files\\adventuredata.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1620481740000
+    },
+    {
+      "relPath": "files\\enchantcosts.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1616430630000
+    },
+    {
+      "relPath": "files\\itemnames.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1620481740000
+    },
+    {
+      "relPath": "files\\EpicLoot.dll",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1620660369000
+    },
+    {
+      "relPath": "files\\iteminfo.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1620415763000
+    },
+    {
+      "relPath": "files\\legendaries.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1620616216000
+    },
+    {
+      "relPath": "files\\magiceffects.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1620659379000
+    },
+    {
+      "relPath": "files\\loottables.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1619912654000
+    },
+    {
+      "relPath": "files\\recipes.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1617570571000
+    },
+    {
+      "relPath": "files\\translations.json",
+      "source": "Epic Loot-387-0-7-9-1620661507",
+      "target": "",
+      "time": 1620614581000
+    },
+    {
+      "relPath": "VLAssets\\valkyrie_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1619855202000
+    },
+    {
+      "relPath": "VLAssets\\ranger_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1619619350000
+    },
+    {
+      "relPath": "VLAssets\\biome_blackforest_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618896696000
+    },
+    {
+      "relPath": "VLAssets\\biome_ash_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618897106000
+    },
+    {
+      "relPath": "VLAssets\\biome_mist_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618896878000
+    },
+    {
+      "relPath": "VLAssets\\biome_meadows_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618896598000
+    },
+    {
+      "relPath": "VLAssets\\biome_mountain_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618896814000
+    },
+    {
+      "relPath": "VLAssets\\biome_ocean_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618897064000
+    },
+    {
+      "relPath": "VLAssets\\biome_swamp_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618896758000
+    },
+    {
+      "relPath": "VLAssets\\biome_plains_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618896998000
+    },
+    {
+      "relPath": "VLAssets\\illusion_skill.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618060596000
+    },
+    {
+      "relPath": "VLAssets\\monk_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618793806000
+    },
+    {
+      "relPath": "VLAssets\\rogue_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618745476000
+    },
+    {
+      "relPath": "VLAssets\\riposte_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618644056000
+    },
+    {
+      "relPath": "VLAssets\\weaken_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1618896306000
+    },
+    {
+      "relPath": "VLAssets\\alteration_skill.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1616418912000
+    },
+    {
+      "relPath": "VLAssets\\abjuration_skill.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1616419172000
+    },
+    {
+      "relPath": "VLAssets\\conjuration_skill.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1616418834000
+    },
+    {
+      "relPath": "VLAssets\\discipline_skill.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1616418788000
+    },
+    {
+      "relPath": "VLAssets\\evocation_skill.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1616418750000
+    },
+    {
+      "relPath": "VLAssets\\movement_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1616576442000
+    },
+    {
+      "relPath": "ValheimLegends.dll",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1620474992000
+    },
+    {
+      "relPath": "VLAssets\\strength_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1616576242000
+    },
+    {
+      "relPath": "VLAssets\\protection_icon.png",
+      "source": "Valheim Legends-796-0-3-4-1620536377",
+      "target": "",
+      "time": 1616576334000
+    },
+    {
+      "relPath": "PotionsPlus\\potions",
+      "source": "Odin's PotionsPlus-1027-1-1-0-1620013006",
+      "target": "",
+      "time": 1619397348000
+    },
+    {
+      "relPath": "PotionsPlus\\LitJSON.dll",
+      "source": "Odin's PotionsPlus-1027-1-1-0-1620013006",
+      "target": "",
+      "time": 1618021192000
+    },
+    {
+      "relPath": "PotionsPlus\\potions.json",
+      "source": "Odin's PotionsPlus-1027-1-1-0-1620013006",
+      "target": "",
+      "time": 1619342616000
+    },
+    {
+      "relPath": "RagnarsRokare_DodgeOnDoubleTap.dll",
+      "source": "RagnarsRokare_DodgeOnDoubleTap.zip-871-0-7-1620408120",
+      "target": "",
+      "time": 1619462504000
+    },
+    {
+      "relPath": "PotionsPlus\\Potions.dll",
+      "source": "Odin's PotionsPlus-1027-1-1-0-1620013006",
+      "target": "",
+      "time": 1619386808000
+    },
+    {
+      "relPath": "RRRMonsters.dll",
+      "source": "RRRMonsters_0.2.1-702-0-2-1-1620585962",
+      "target": "",
+      "time": 1620524554000
+    },
+    {
+      "relPath": "RRRSpawnVariety_0.2.0.dll",
+      "source": "RRRSpawnVariety_0.2.0-685-0-2-0-1619551961",
+      "target": "",
+      "time": 1619488818000
+    },
+    {
+      "relPath": "RRRBetterRaids_0.2.0.dll",
+      "source": "RRRBetterRaids_0.2.0-705-0-2-0-1619551739",
+      "target": "",
+      "time": 1619488786000
+    },
+    {
+      "relPath": "RRRCore.dll",
+      "source": "RRRCore_0.2.5-671-0-2-5-1620591669",
+      "target": "",
+      "time": 1620530282000
+    },
+    {
+      "relPath": "CONFIG GUIDES\\ConfigGuide_ProjectileNames.txt",
+      "source": "RRRNpcs_0.2.2-687-0-2-2-1620328999",
+      "target": "",
+      "time": 1619750602000
+    },
+    {
+      "relPath": "CONFIG GUIDES\\ConfigGuide_MonsterAnims.txt",
+      "source": "RRRNpcs_0.2.2-687-0-2-2-1620328999",
+      "target": "",
+      "time": 1619750540000
+    },
+    {
+      "relPath": "CONFIG GUIDES\\ConfigGuide_AttackNames.txt",
+      "source": "RRRNpcs_0.2.2-687-0-2-2-1620328999",
+      "target": "",
+      "time": 1619751356000
+    },
+    {
+      "relPath": "fastJSON.dll",
+      "source": "RRRCore_0.2.5-671-0-2-5-1620591669",
+      "target": "",
+      "time": 1614564068000
+    },
+    {
+      "relPath": "CONFIG GUIDES\\ConfigGuide_SpecialAttackDefinitions.txt",
+      "source": "RRRNpcs_0.2.2-687-0-2-2-1620328999",
+      "target": "",
+      "time": 1619600608000
+    },
+    {
+      "relPath": "CONFIG GUIDES\\ConfigGuide_PlayerAttackAnims.txt",
+      "source": "RRRNpcs_0.2.2-687-0-2-2-1620328999",
+      "target": "",
+      "time": 1619750454000
+    },
+    {
+      "relPath": "RRRNpcs_0.2.2.dll",
+      "source": "RRRNpcs_0.2.2-687-0-2-2-1620328999",
+      "target": "",
+      "time": 1620267504000
+    },
+    {
+      "relPath": "Valheim.SpawnThat.dll",
+      "source": "SpawnThat-453-0-9-1-1620899591",
+      "target": "",
+      "time": 1620899168000
+    },
+    {
+      "relPath": "CONFIG GUIDES\\ConfigGuide.md",
+      "source": "RRRNpcs_0.2.2-687-0-2-2-1620328999",
+      "target": "",
+      "time": 1619751322000
+    },
+    {
+      "relPath": "Valweed\\Valweed.pdb",
+      "source": "Valweed-1023-0-0-5-1620968895",
+      "target": "",
+      "time": 1620918240000
+    },
+    {
+      "relPath": "Valweed\\Valweed.mdb",
+      "source": "Valweed-1023-0-0-5-1620968895",
+      "target": "",
+      "time": 1620918242000
+    },
+    {
+      "relPath": "Valweed\\Valweed.dll",
+      "source": "Valweed-1023-0-0-5-1620968895",
+      "target": "",
+      "time": 1620918240000
+    },
+    {
+      "relPath": "Jotunn.dll",
+      "source": "Jotunn-1138-2-0-9-1620822760",
+      "target": "",
+      "time": 1620793908000
+    },
+    {
+      "relPath": "README",
+      "source": "Jotunn-1138-2-0-9-1620822760",
+      "target": "",
+      "time": 1620696798000
+    },
+    {
+      "relPath": "Jotunn.dll.mdb",
+      "source": "Jotunn-1138-2-0-9-1620822760",
+      "target": "",
+      "time": 1620793910000
+    },
+    {
+      "relPath": "Valheim.CustomRaids.dll",
+      "source": "custom-raids-v1.3.7-278-1-3-7-1620843073",
+      "target": "",
+      "time": 1620842072000
+    },
+    {
+      "relPath": "ValheimFPSBoost Custom\\ValheimFPSBoostCustom.dll",
+      "source": "ValheimFPSBoost Custom-1026-1-1-1618937610",
+      "target": "",
+      "time": 1618937531000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\icon.png",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1617024783000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\balance.json",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1621017264000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\english.lang",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1620767980000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\manifest.json",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1621029141000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\Newtonsoft.Json.dll",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1573282604000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\TerraheimItems.dll",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1621028642000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\README.md",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1620936790000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\Terraheim.dll",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1621028467000
+    },
+    {
+      "relPath": "DasSauerkraut-Terraheim\\weaponBalance.json",
+      "source": "Terraheim-803-2-0-5-1621029253",
+      "target": "",
+      "time": 1620855874000
+    },
+    {
+      "relPath": "BlacksmithTools.dll",
+      "source": "Blacksmith's Tools 1.1.0-566-1-1-0-1619031245",
+      "target": "",
+      "time": 1619030697000
+    },
+    {
+      "relPath": "bsmith.ExampleChestPiece.cfg",
+      "source": "Blacksmith's Tools 1.1.0-566-1-1-0-1619031245",
+      "target": "",
+      "time": 1619030623000
+    },
+    {
+      "relPath": "body",
+      "source": "Blacksmith's Tools 1.1.0-566-1-1-0-1619031245",
+      "target": "",
+      "time": 1619030856000
+    },
+    {
+      "relPath": "body_female",
+      "source": "Blacksmith's Tools 1.1.0-566-1-1-0-1619031245",
+      "target": "",
+      "time": 1619030856000
+    },
+    {
+      "relPath": "NameYourTame.dll",
+      "source": "NameYourTame-994-0-1-2-1618856918",
+      "target": "",
+      "time": 1618856687000
+    },
+    {
+      "relPath": "BuildExpansion.dll",
+      "source": "BuildExpansion-950-1-0-5-1620285706",
+      "target": "",
+      "time": 1620283577000
+    },
+    {
+      "relPath": "Moregates.dll",
+      "source": "More Gates 1.0.7-1087-1-0-7-1619854650",
+      "target": "",
+      "time": 1619804054000
+    }
+  ]
+}
