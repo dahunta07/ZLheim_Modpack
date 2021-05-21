@@ -42,12 +42,12 @@
    "Category_Humanoid" : {
       "dtAttackDamageOverride" : {
          "fDamage" : 0,
-         "fBlunt" : 45,
-         "fSlash" : 75,
+         "fBlunt" : 35,
+         "fSlash" : 65,
          "fPierce" : 0,
          "fChop" : 150,
          "fPickaxe" : 150,
-         "fFire" : 55,
+         "fFire" : 45,
          "fFrost" : 0,
          "fLightning" : 0,
          "fPoison" : 0,
@@ -56,9 +56,9 @@
       "fAttackDamageTotalOverride" : null,
       "sAttackProjectileOverride" : null,
       "aDefaultItems" : [
-         "troll_groundslam@attack@@5",
-         "stonegolem_attack_doublesmash@attack@@10",
-         "stonegolem_attack2_left_groundslam@attack@@12"
+         "troll_groundslam@attack@@8",
+         "stonegolem_attack_doublesmash@attack@@12",
+         "stonegolem_attack2_left_groundslam@attack@@18"
       ],
       "aRandomWeapon" : [
          

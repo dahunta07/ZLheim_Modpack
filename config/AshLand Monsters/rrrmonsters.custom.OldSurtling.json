@@ -42,7 +42,7 @@
    "Category_Humanoid" : {
       "dtAttackDamageOverride" : {
          "fDamage" : 0,
-         "fBlunt" : 25,
+         "fBlunt" : 30,
          "fSlash" : 0,
          "fPierce" : 0,
          "fChop" : 0,
