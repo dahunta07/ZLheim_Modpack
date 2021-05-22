@@ -1,0 +1,187 @@
+{
+   "sOriginalPrefabName" : "StoneGolem",
+   "sNewPrefabName" : "SilverGolem",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 2.25,
+         "fY" : 2.25,
+         "fZ" : 2.25
+      },
+      "cTintColor" : {
+         "fRed": 0.85,
+         "fGreen": 0.85,
+         "fBlue": 0.85
+      },
+      "cTintItems" : {
+         "fRed": 0.85,
+         "fGreen": 0.85,
+         "fBlue": 0.85
+      },
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Silver Golem",
+      "sFaction" : "MountainMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : true,
+      "bToleratesSmoke" : true,
+      "fHealth" : 2000,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Resistant",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "VeryWeak",
+         "m_fire" : "Immune",
+         "m_frost" : "Immune",
+         "m_lightning" : "Normal",
+         "m_poison" : "Immune",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 110,
+         "fSlash" : 110,
+         "fPierce" : 0,
+         "fChop" : 200,
+         "fPickaxe" : 200,
+         "fFire" : 0,
+         "fFrost" : 0,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         "StoneGolem_hat",
+         "",
+         ""
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         {
+            "aSetItems" : [
+               "dragon_coldbreath_OLD@attack3@vfx_dragon_coldbreath@24",
+               "stonegolem_attack2_left_groundslam@attack2@@6",
+               "dragon_coldbreath_OLD@attack3@troll_throw_projectile@8",
+               "stonegolem_attack3_spikesweep@attack3@@8",
+               "StoneGolem_spikes"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "dragon_coldbreath_OLD@attack3@vfx_dragon_coldbreath@24",
+               "stonegolem_attack2_left_groundslam@attack2@@6",
+               "dragon_coldbreath_OLD@attack3@troll_throw_projectile@8",
+               "stonegolem_attack_doublesmash@doublesmash@@14",
+               "StoneGolem_clubs"
+            ]
+         }
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "TrollSize",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 10,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 0,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "TrophySGolem",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.10,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "Stone",
+            "iAmountMin" : 15,
+            "iAmountMax" : 30,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "Crystal",
+            "iAmountMin" : 3,
+            "iAmountMax" : 6,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "SilverOre",
+            "iAmountMin" : 5,
+            "iAmountMax" : 10,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

@@ -1,0 +1,211 @@
+{
+   "sOriginalPrefabName" : "RRR_NPC",
+   "sNewPrefabName" : "Dwa1",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1.1,
+         "fY" : 0.8,
+         "fZ" : 1.1
+      },
+      "cTintColor" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Dvergr",
+      "sFaction" : "Players",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1.2,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 280,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Immune",
+         "m_pickaxe" : "Immune",
+         "m_fire" : "Normal",
+         "m_frost" : "Resistant",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 50,
+         "fSlash" : 80,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 0,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 20
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+      ],
+      "aRandomWeapon" : [
+      ],
+      "aRandomArmor" : [
+      ],
+      "aRandomShield" : [
+      ],
+      "aaRandomSets" : [
+         {
+            "aSetItems" : [
+               "SledgeIron@knife_secondary@@12",
+               "SledgeIron@battleaxe_attack1@@6",
+               "SledgeIron@battleaxe_attack0@@6",
+               "ArmorWolfLegs",
+               "ArmorIronChest",
+               "CapeLox"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "AxeIron@swing_axe@@3",
+               "AxeIron@knife_stab@@12",
+               "ArmorWolfLegs",
+               "ArmorIronChest",
+               "CapeLox"
+               "ShieldBanded"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "SwordIronFire@swing_axe@@3",
+               "SwordIronFire@knife_stab@@12",
+               "ArmorWolfLegs",
+               "ArmorIronChest",
+               "CapeLox"
+               "ShieldBanded"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "AxeIron@swing_axe@@3",
+               "AxeIron@knife_stab@@12",
+               "ArmorWolfLegs",
+               "ArmorIronChest",
+               "CapeLox"
+               "ShieldBanded"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "Greydwarf_attack@unarmed_attack0@@3",
+               "Greydwarf_attack@unarmed_attack1@@3",
+               "Greydwarf_attack@unarmed_kick@@3",
+               "Eikthyr_charge@sword_secondary@@12",
+               "Eikthyr_stomp@knife_secondary@@26",
+               "CapeLox",
+               "ArmorWolfLegs",
+               "BeltStrength",
+            ]
+         }          
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "Humanoid",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 20,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0.2,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : false,
+      "bAttackPlayerObjectsWhenAlerted" : false,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 300,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 10,
+      "fCircleTargetDuration" : 3,
+      "fCircleTargetDistance" : 5,
+      "aConsumeItems" : [
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [       
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : true,
+      "bCommandableWhenTame" : true,
+      "bCanProcreateWhenTame" : false,
+      "bSfxNoAlert" : true,
+      "bSfxNoIdle" : true,
+      "bSfxNoHit" : true,
+      "bSfxNoDeath" : true,
+      "bFxNoTame" : true
+   },
+   "Category_NpcOnly" : {
+      "bIsFemale" : false,
+      "bNoBeardIfFemale": true,
+      "bRandomGender" : true,
+      "aBeardIds" : [
+         "Beard1",
+         "Beard2",
+         "Beard5",
+         "Beard6"
+      ],
+      "aHairIds" : [
+         "Hair3",
+         "Hair6",
+         "Hair9",
+         "Hair13", 
+       ],
+      "cSkinColorMin": {
+         "fRed": 0.0,
+         "fGreen": 2.04,
+         "fBlue": 2.04
+       },
+       "cSkinColorMax": {
+         "fRed": 0.0,
+         "fGreen": 1.53,
+         "fBlue": 1.53
+       },
+       "cHairColorMin": {
+         "fRed": 2.55,
+         "fGreen": 1.53,
+         "fBlue": 0.51
+       },
+       "cHairColorMax": {
+         "fRed": 2.55,
+         "fGreen": 1.43,
+         "fBlue": 0.51
+       },
+       "fHairValueMin": 0.7,
+       "fHairValueMax": 0.9
+   },
+   "sConfigFormatVersion" : "0.2.0"
+}

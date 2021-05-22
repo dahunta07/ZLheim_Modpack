@@ -1,0 +1,136 @@
+{
+   "sOriginalPrefabName" : "RRR_GhostVengeful",
+   "sNewPrefabName" : "SpiritAngry",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 0.60,
+         "fY" : 0.60,
+         "fZ" : 0.60
+      },
+      "cTintColor" : {
+         "fRed" : 1.45,
+         "fGreen" : 0.00,
+         "fBlue" : 0.00
+      },
+      "cBodySmoke" : {
+         "fRed" : 1.45,
+         "fGreen" : 0.00,
+         "fBlue" : 0.00
+      },
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Angry Spirit",
+      "sFaction" : "Boss",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1.5,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : true,
+      "fHealth" : 100,
+      "dDamageTaken" : {
+         "m_blunt" : "VeryResistant",
+         "m_slash" : "VeryResistant",
+         "m_pierce" : "VeryResistant",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Immune",
+         "m_frost" : "Immune",
+         "m_lightning" : "Immune",
+         "m_poison" : "Immune",
+         "m_spirit" : "Weak"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 0,
+         "fSlash" : 40,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 0,
+         "fLightning" : 40,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+          "Ghost_attack@punch@@3"
+         
+      ],
+      "aRandomWeapon" : [
+
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+
+      ],
+      "aaRandomSets" : [
+
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 180,
+      "fHearRange" : 30,
+      "sPathAgentType" : "HumanoidNoSwim",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 60,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : false,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : true,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : false,
+      "bAttackPlayerObjectsWhenAlerted" : false,
+      "fInterceptTimeMax" : 0,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}
